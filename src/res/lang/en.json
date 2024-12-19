@@ -1,0 +1,81 @@
+{
+    "settings": [
+        {
+            "key": "language",
+            "default": "en",
+            "description": "language of display and timeinput generated.",
+            "title": "display language",
+            "type": "enum",
+            "enumPicker": "radio",
+            "enumChoices": [
+                "en",
+                "cn"
+            ]
+        },
+        {
+            "key": "timeformat",
+            "default": "Mon DDth, YYYY HH:MM",
+            "description": "format of timeinput generated",
+            "title": "Timeinput Format",
+            "type": "enum",
+            "enumChoices": [
+                "Mon DDth, YYYY HH:MM"
+            ]
+        },
+        {
+            "key": "forecolor",
+            "default": "",
+            "description": "Color of timeinput text.",
+            "title": "Timeinput Forecolor.",
+            "type": "string",
+            "inputAs": "color"
+        }
+    ],
+    "month": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ],
+    "days": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th",
+        "5th",
+        "6th",
+        "7th",
+        "8th",
+        "9th",
+        "10th",
+        "11st",
+        "12nd",
+        "13rd",
+        "14th",
+        "15th",
+        "16th",
+        "17th",
+        "18th",
+        "19th",
+        "20th",
+        "21st",
+        "22nd",
+        "23rd",
+        "24th",
+        "25th",
+        "26th",
+        "27th",
+        "28th",
+        "29th",
+        "30th",
+        "31st"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "settings": [
+        {
+            "key": "language",
+            "default": "en",
+            "description": "输入时间的显示语言.",
+            "title": "语言",
+            "type": "enum",
+            "enumPicker": "radio",
+            "enumChoices": [
+                "en",
+                "cn"
+            ]
+        },
+        {
+            "key": "timeformat",
+            "default": "Mon DDth, YYYY HH:MM",
+            "description": "生成时间的格式。",
+            "title": "时间格式",
+            "type": "enum",
+            "enumChoices": [
+                "Mon DDth, YYYY HH:MM"
+            ]
+        },
+        {
+            "key": "forecolor",
+            "default": "",
+            "description": "输入时间的文本的颜色。",
+            "title": "文本颜色",
+            "type": "string",
+            "inputAs": "color"
+        }
+    ],
+    "month": [
+        "一月",
+        "二月",
+        "三月",
+        "四月",
+        "五月",
+        "六月",
+        "七月",
+        "八月",
+        "九月",
+        "十月",
+        "十一月",
+        "十二月"
+    ]
+}

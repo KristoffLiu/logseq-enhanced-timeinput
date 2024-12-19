@@ -1,0 +1,31 @@
+{
+    "name": "logseq-enhanced-timeinput",
+    "version": "0.0.1",
+    "title": "Enhanced Timeinput",
+    "description": "Offer ",
+    "author": "kristoff",
+    "license": "MIT",
+    "repo": "kristoffliu/logseq_enhanced_timeinput",
+
+    "main": "dist/index.html",
+    "default": "dist/index.html",
+    "targets": {
+        "main": false
+      },
+    "scripts": {
+        "dev": "parcel ./index.html --public-url ./",
+        "build": "parcel build --public-url . --no-source-maps index.html"
+      },
+    "dependencies": {
+        "@logseq/libs": "^0.0.15",
+        "parcel": "^2.0.0"
+    },
+    "devDependencies": {
+        "localizationjs": "^2.0.20"
+    },
+    "logseq": {
+      "id": "logseq-enhanced-timeinput",
+      "icon": "./logo.png"
+    },
+    "effect": false
+  }
